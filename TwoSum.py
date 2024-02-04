@@ -1,3 +1,4 @@
+from typing import List
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         num_dict = {}  # Hash map to store the numbers and their indices
